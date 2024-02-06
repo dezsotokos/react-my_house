@@ -10,7 +10,7 @@ function App() {
         <div className="App">
           <nav className="nav">
             <Link to="/" className="nav-item"> Homepage</Link>
-            <a href="/about-me" className="nav-item"> About Me</a>
+            <Link to="/about-me" className="nav-item"> About Me</Link>
           </nav>
           <Header />
           <Routes>
