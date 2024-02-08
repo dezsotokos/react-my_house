@@ -2,6 +2,7 @@
 import Weekend from "./Weekend";
 import Workdays from "./Workdays";
 import MadiaPlayer from "./MadiaPlayer";
+import Calculator from "./Calculator";
 import video from '../assets/videos/front_vid.mp4'
 
 function HomePage(props) {
@@ -23,6 +24,7 @@ function HomePage(props) {
                 style={alignCenter}
                 url={video}
             />
+            <Calculator />
         </div>
     );
 }
