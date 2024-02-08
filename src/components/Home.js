@@ -6,6 +6,11 @@ import video from '../assets/videos/front_vid.mp4'
 
 function HomePage(props) {
     const day = new Date().getDay();
+    const alignCenter = {
+        display: 'flex',
+        alignItems: 'center',
+        flexDirection: 'column',
+    };
 
     return (
         <div>
@@ -14,7 +19,8 @@ function HomePage(props) {
                 ? <Workdays />
                 : <Weekend />
             }
-            <MadiaPlayer
+            <MadiaPlayer 
+                style={alignCenter}
                 url={video}
             />
         </div>

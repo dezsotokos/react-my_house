@@ -2,7 +2,7 @@ import ReactPlayer from 'react-player'
 
 function MadiaPlayer(props) {
     return (
-        <div className="MadiaPlayer">
+        <div className="MadiaPlayer" style={props.style}>
             <p>MadiaPlayer</p>
             <ReactPlayer
                 url={props.url}
