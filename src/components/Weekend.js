@@ -1,9 +1,9 @@
-function weekend(props) {
+function Weekend(props) {
     return (
-        <div className="weekend">
-            <p>weekend</p>
+        <div className="Weekend">
+            <p>Weekend</p>
         </div>
     );
 }
 
-export default weekend;
+export default Weekend;
