@@ -4,6 +4,7 @@ import Workdays from "./Workdays";
 import MadiaPlayer from "./MadiaPlayer";
 import Calculator from "./Calculator";
 import video from '../assets/videos/front_vid.mp4'
+import GoalManagger from "./GoalManagger";
 
 function HomePage(props) {
     const day = new Date().getDay();
@@ -25,6 +26,7 @@ function HomePage(props) {
                 url={video}
             />
             <Calculator />
+            <GoalManagger />
         </div>
     );
 }
