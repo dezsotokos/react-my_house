@@ -6,6 +6,7 @@ import Calculator from "./Calculator";
 import video from '../assets/videos/front_vid.mp4'
 import GoalManagger from "./GoalManagger";
 import { useEffect, useState } from "react";
+import Wallet from "./Wallet";
 
 function HomePage(props) {
     const day = new Date().getDay();
@@ -49,6 +50,7 @@ function HomePage(props) {
             />
             <Calculator />
             <GoalManagger />
+            <Wallet />
         </div>
     );
 }
