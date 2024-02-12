@@ -8,6 +8,7 @@ import GoalManagger from "./GoalManagger";
 import { useEffect, useState } from "react";
 import Wallet from "./Wallet";
 import Focus from "./Focus";
+import HOCMousePosition from "./HOCMousePosition";
 
 function HomePage(props) {
     const day = new Date().getDay();
@@ -53,6 +54,7 @@ function HomePage(props) {
             <GoalManagger />
             <Wallet />
             <Focus />
+            <HOCMousePosition />
         </div>
     );
 }
