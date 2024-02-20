@@ -1,6 +1,12 @@
-function Header(props) {
+import DropDown from './DropDown/DropDown';
+
+function Header() {
     
-    return <h1>Header</h1>;
+    return (
+        <header className="header">
+            <DropDown />
+        </header>
+    );
 }
 
 export default Header;
