@@ -4,28 +4,15 @@ export const dropMenu = [
         subMenu: [
             {
                 title: "Bemutatkozás",
-                path: "#",
+                path: "about",
             },
             {
                 title: "Galléria",
-                subMenu: [
-                    {
-                        title: "subsubmenu1",
-                        path: "#",
-                    },
-                    {
-                        title: "subsubmenu1",
-                        path: "#",
-                    },
-                    {
-                        title: "subsubmenu1",
-                        path: "#",
-                    },
-                ],
+                path: "gallery"
             },
             {
                 title: "Szolgáltatások",
-                path: "#",
+                path: "amenities",
             },
         ],
     },
@@ -34,20 +21,20 @@ export const dropMenu = [
         subMenu: [
             {
                 title: "Foglalás",
-                path: "#",
+                path: "reservation",
             },
             {
                 title: "Szobák",
-                path: "#",
+                path: "rooms",
             },
         ],
     },
     {
         title: "Látnivalók",
-        path: "/about-me",
+        path: "/sights",
     },
     {
         title: "Kapcsolatok",
-        path: "#",
+        path: "contact",
     },
 ];
