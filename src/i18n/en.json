@@ -4,6 +4,11 @@
         "about": {
             "title": "About",
             "description": "Long description"
+        },
+        "footer": {
+            "name": "Lily Guesthouse",
+            "address": "Szeltersz, 1304/B, Lövéte, Románia",
+            "bookable_notice": "Book your stay:"   
         }
     }
 }

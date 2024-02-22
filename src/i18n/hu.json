@@ -4,6 +4,11 @@
         "about": {
             "title": "Panzióról",
             "description": "Leiras a panziorol"
+        },
+        "footer": {
+            "name": "Gyöngyvirág kulcsosház",
+            "address": "Szeltersz, 1304/B, Lövéte, Románia",
+            "bookable_notice": "Foglalj:"   
         }
     }
 }

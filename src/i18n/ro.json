@@ -4,6 +4,11 @@
         "about": {
             "title": "Despre pensiune",
             "description": "Long description"
+        },
+        "footer": {
+            "name": "Lily Guesthouse",
+            "address": "Selters, 1304/B, Lueta, România",
+            "bookable_notice": "Rezervă:"   
         }
     }
 }
