@@ -2,8 +2,13 @@
     "translation": {
         "title": "Pensiunea Lăcrămioare",
         "about": {
+            "name": "Despre pensiune",
             "title": "Despre pensiune",
             "description": "Long description"
+        },
+        "maps": {
+            "loading": "Loading maps!",
+            "error": "Error loading maps!"
         }
     }
 }

@@ -53,7 +53,7 @@ const DropDown = () =>  {
                         ))}
                     </select>
                 </ul>
-                <span className="bar_menu" on>
+                <span className="bar_menu">
                     <FaBars onClick={() => setOpenMenu(true)}/>
                 </span>
             </div>

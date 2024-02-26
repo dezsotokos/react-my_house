@@ -2,8 +2,13 @@
     "translation": {
         "title": "Lily of the valley Guesthouse",
         "about": {
-            "title": "About",
+            "name": "About",
+            "title": "About the guesthouse",
             "description": "Long description"
+        },
+        "maps": {
+            "loading": "Loading maps!",
+            "error": "Error loading maps!"
         }
     }
 }

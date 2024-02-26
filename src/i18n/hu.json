@@ -2,8 +2,13 @@
     "translation": {
         "title": "Gyöngyvirág Kulcsosáz",
         "about": {
-            "title": "Panzióról",
+            "name": "Panzióról",
+            "title": "A panzióról",
             "description": "Leiras a panziorol"
+        },
+        "maps": {
+            "loading": "Térkép betöltése!",
+            "error": "Hiba a térkép betöltése közben!"
         }
     }
 }

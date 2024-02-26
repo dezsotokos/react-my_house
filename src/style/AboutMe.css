@@ -1,0 +1,18 @@
+.about_page {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* responsive part */
+@media(max-width: 999px) {
+    .about_page {
+        width: 90%;
+    }
+}
+
+@media(max-width: 820px) {
+    .about_page {
+        width: 100%;
+    }
+}
