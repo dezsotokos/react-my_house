@@ -4,7 +4,25 @@
         "about": {
             "name": "Panzióról",
             "title": "A panzióról",
-            "description": "Leiras a panziorol"
+            "description": "Leiras a panziorol",
+            "recomendationTitle": "Üdvözöljük a Gyöngyvirág Kulcsosázban, az otthonától távol, Szelterszen!",
+            "recomendationDescription": "A Szeltersz szívében elhelyezkedő vendégházunk 3 szobával, egy fürdőszobával, egy tágas nappalival és egy konyhával rendelkezik. Szállásunk békés menedéket biztosít, ahol pihenhet és lazíthat egy felfedezéssel töltött nap után akár igénybe véve sós dézsánk kényelmét is.",
+            "amenitie": {
+                "title": "A Gyöngyvirág kulcsosháznál arra törekszünk, hogy az Ön tartózkodását a lehető legélvezetesebbé tegyük:",
+                "description": "A Gyöngyvirág kulcsosháznál arra törekszünk, hogy az Ön tartózkodását a lehető legélvezetesebbé tegyük.",
+                "listElement1": "Hangulatos közös helyiségek a társasági élethez és a pihenéshez",
+                "listElement2": "Ingyenes Wi-Fi az egész épületben",
+                "listElement3": "Kert és szabadtéri hely",
+                "listElement4": "Parkolás a vendégek számára a helyszínen",
+                "listElement5": "Grillezési lehetőség",
+                "listElement6": "Fatüzelésű kemence",
+                "listElement7": "Sós dézsa"
+            },
+            "calendar": {
+                "title": "Foglalja le szállását",
+                "description": "Készen áll, hogy megtapasztalja Gyöngyvirág kulcsosház varázsát és vendégszeretetét? Foglalja le szállását még ma, és fedezze fel, miért választ oly sok utazó minket preferált szállásaként Szeltersz területén. A kulcsosház elérhető a következő datumokon:",
+                "button": "Itt foglaljon!" 
+            }
         },
         "maps": {
             "loading": "Térkép betöltése!",

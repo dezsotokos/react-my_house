@@ -4,7 +4,25 @@
         "about": {
             "name": "About",
             "title": "About the guesthouse",
-            "description": "Long description"
+            "description": "Long description",
+            "recomendationTitle": "Welcome to Lily Guest House, your home away from home in Selters!",
+            "recomendationDescription": "recomendationDescription",
+            "amenitie": {
+                "title": "A Gyöngyvirág kulcsosháznál arra törekszünk, hogy az Ön tartózkodását a lehető legélvezetesebbé tegyük:",
+                "description": "A Gyöngyvirág kulcsosháznál arra törekszünk, hogy az Ön tartózkodását a lehető legélvezetesebbé tegyük.",
+                "listElement1": "Hangulatos közös helyiségek a társasági élethez és a pihenéshez",
+                "listElement2": "Ingyenes Wi-Fi az egész épületben",
+                "listElement3": "Kert és szabadtéri hely",
+                "listElement4": "Parkolás a vendégek számára a helyszínen",
+                "listElement5": "Grillezési lehetőség",
+                "listElement6": "Fatüzelésű kemence",
+                "listElement7": "Sós dézsa"
+            },
+            "calendar": {
+                "title": "Foglalja le szállását",
+                "description": "Készen áll, hogy megtapasztalja Gyöngyvirág kulcsosház varázsát és vendégszeretetét? Foglalja le szállását még ma, és fedezze fel, miért választ oly sok utazó minket preferált szállásaként Szeltersz területén.",
+                "button": "Itt foglaljon!" 
+            }
         },
         "maps": {
             "loading": "Loading maps!",

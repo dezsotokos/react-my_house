@@ -1,8 +1,8 @@
 export const mapContainer = {
-    width: '100%',
+    width: '96%',
     height: '100vh',
     maxHeight: '500px',
-    padding: '0 1%',
+    margin: '0 2%',
 };
 
 export const loading = {
