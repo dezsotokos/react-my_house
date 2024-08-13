@@ -1,33 +1,5 @@
-.footer {
+.footer-container {
     width: 80%;
     margin: 0 auto;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 2rem;
-}
-
-.footer-element {
-    width: 150px;
-    margin: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    color: #000b4d;
-}
-
-
-
-/* responsive part */
-@media(max-width: 999px) {
-    .footer {
-        width: 90%;
-    }
+    padding: 10px 0px;
 }

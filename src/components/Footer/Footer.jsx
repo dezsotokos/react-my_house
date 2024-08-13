@@ -1,57 +1,76 @@
 import React from 'react';
 import './Footer.css';
 import { useTranslation } from "react-i18next";
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import house from '../../assets/images/House_front_main.png';
 
 const Footer = () => {
     const { t } = useTranslation();
     return (
-        <div className="footer">
-            <div class="footer-container">
-                <div class="footer-element footer-logo">
-                    {/* <div class="footer-logo"> */}
-                        <h4 class="footer-logo-title">{t("footer.name")}</h4>
-                        <a href="/">
-                            <img width="150" height="150" src="" class="image" alt="" title={t("footer.name")} />
-                        </a>
-                    {/* </div>         */}
-                </div>
-                <div class="footer-element footer-address">
-                    {/* <div class="footer-address"> */}
-                        <p>
-                            {t("footer.address")}
-                        </p>
-                    {/* </div> */}
-                </div>
-                <div class="footer-element footer-nav_menu">
-                    {/* <div class="footer-nav_menu"> */}
-                        <a href="/about/">About the guesthouse</a>
-                        <a href="#">Contact</a>
-                        <a href="#">Services</a>
-                        <a href="#">Sights</a>
-                    {/* </div> */}
-                </div>
-                <div class="footer-element footer-contact">
-                    {/* <div class="footer-contact"> */}
-                        <h4 class="footer-contact-title">{t("footer.bookable_notice")}</h4>
-                        <div class="footer-contact-container">
+        <div className="footer default-background-color">
+            <div className="footer-container">
+                <MDBContainer className='text-center text-md-start mt-3'>
+                    <MDBRow className='mt-3'>
+                        <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+                            <h4 className='fw-bold mb-4 default-text-color'>
+                                {t("footer.name")}
+                            </h4>
                             <p>
-                                Tel:<br/>
-                                +40 745486360<br/>
-                                +40 727173332<br/>
+                                <a href="/">
+                                    <img width="150" height="150" src={house} className="image" alt="" title={t("footer.name")} />
+                                </a>
+                            </p>
+                        </MDBCol>
+
+                        <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                            <h6 className='fw-bold mb-4 default-text-color'>{t("footer.links")}</h6>
+                            <p>
+                                <a href='/about' className='text-reset'>
+                                    {t("footer.about_guesthouse")}
+                                </a>
                             </p>
                             <p>
-                                E-mail:<br/>
+                                <a href='/reservation' className='text-reset'>
+                                    {t("footer.reservation")}
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/rooms' className='text-reset'>
+                                    {t("footer.rooms")}
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/sights' className='text-reset'>
+                                    {t("footer.sights")}
+                                </a>
+                            </p>
+                        </MDBCol>
+
+                        <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+                            <h6 className='fw-bold mb-4 default-text-color'>{t("footer.contact")}</h6>
+                            <p>
+                                <MDBIcon color='secondary' icon='home' className='me-2' />
+                                {t("footer.address")}
+                            </p>
+                            <p>
+                                <MDBIcon color='secondary' icon='envelope' className='me-3' />
                                 dezsotokos@gmail.com
                             </p>
-                        </div>
-                    {/* </div> */}
-                 </div>
-            </div>
-            <div className="footer-below">
-                <div className="footer-copyright">
-                    <p>
-                        @{new Date().getFullYear()} Gyöngyvirág Kulcsosház. All right reserved.
-                    </p>
+                            <p>
+                                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 40 745 486 360
+                            </p>
+                            <p>
+                                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 40 727 173 332
+                            </p>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBContainer>
+                <div className="footer-below">
+                    <div className="footer-copyright">
+                        <p>
+                            @{new Date().getFullYear()} {t("footer.all_right_reserved")}
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

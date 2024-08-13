@@ -42,7 +42,17 @@
         "footer": {
             "name": "Lily Guesthouse",
             "address": "Szeltersz, 1304/B, Lövéte, Románia",
-            "bookable_notice": "Book your stay:"   
+            "about_guesthouse": "About the Guesthouse",
+            "about": "About",
+            "gallery": "Gallery",
+            "amenities": "Amenities",
+            "accommodation": "Accommodation",
+            "reservation": "Booking",
+            "rooms": "Rooms",
+            "sights": "Sights",
+            "links": "Useful links",
+            "contact": "Contact",
+            "all_right_reserved": "Gyöngyvirág Kulcsosház. All right reserved."
         }
     }
 }

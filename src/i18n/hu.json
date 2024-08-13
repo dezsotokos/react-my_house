@@ -42,7 +42,17 @@
         "footer": {
             "name": "Gyöngyvirág kulcsosház",
             "address": "Szeltersz, 1304/B, Lövéte, Románia",
-            "bookable_notice": "Foglalj:"   
+            "about_guesthouse": "Panzióról",
+            "about": "Bemutatkozás",
+            "gallery": "Galéria",
+            "amenities": "Szolgáltatások",
+            "accommodation": "Szállás",
+            "reservation": "Foglalás",
+            "rooms": "Szobák",
+            "sights": "Látnivalók",
+            "links": "Hasznos",
+            "contact": "Kapcsolatok",
+            "all_right_reserved": "Gyöngyvirág Kulcsosház. Az összes jog fenntartva."
         }
     }
 }

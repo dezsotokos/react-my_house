@@ -42,7 +42,17 @@
         "footer": {
             "name": "Lily Guesthouse",
             "address": "Selters, 1304/B, Lueta, România",
-            "bookable_notice": "Rezervă:"   
+            "about_guesthouse": "Despre pensiune",
+            "about": "Introducere",
+            "gallery": "Galerie",
+            "amenities": "Servicii",
+            "accommodation": "Cazare",
+            "reservation": "Rezervare",
+            "rooms": "Camere",
+            "sights": "Atracții",
+            "links": "Link-uri utile",
+            "contact": "Contact",
+            "all_right_reserved": "Gyöngyvirág Kulcsosház. Toate drepturile rezervate."
         }
     }
 }
