@@ -38,6 +38,11 @@
         "maps": {
             "loading": "Loading maps!",
             "error": "Error loading maps!"
+        },
+        "footer": {
+            "name": "Lily Guesthouse",
+            "address": "Selters, 1304/B, Lueta, România",
+            "bookable_notice": "Rezervă:"   
         }
     }
 }

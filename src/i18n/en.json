@@ -38,6 +38,11 @@
         "maps": {
             "loading": "Loading maps!",
             "error": "Error loading maps!"
+        },
+        "footer": {
+            "name": "Lily Guesthouse",
+            "address": "Szeltersz, 1304/B, Lövéte, Románia",
+            "bookable_notice": "Book your stay:"   
         }
     }
 }

@@ -38,6 +38,11 @@
         "maps": {
             "loading": "Térkép betöltése!",
             "error": "Hiba a térkép betöltése közben!"
+        },
+        "footer": {
+            "name": "Gyöngyvirág kulcsosház",
+            "address": "Szeltersz, 1304/B, Lövéte, Románia",
+            "bookable_notice": "Foglalj:"   
         }
     }
 }
