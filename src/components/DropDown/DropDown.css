@@ -2,10 +2,6 @@
     padding: 1rem 0;
 }
 
-.headroom {
-    background-color: #fffff9;
-}
-
 .header .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -196,5 +192,10 @@
             width: 100vw;
             
         }
+    }
+
+    .opened-modal-selector {
+        font-size: 18px;
+        margin: 1rem;
     }
 }

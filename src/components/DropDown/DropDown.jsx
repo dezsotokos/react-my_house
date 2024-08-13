@@ -16,7 +16,7 @@ const DropDown = () =>  {
     };
 
     return (
-        <Headroom >
+        <Headroom className="default-background-color">
             <div className="wrapper">
                 <div className="logo">
                     <a href="/">
@@ -45,13 +45,15 @@ const DropDown = () =>  {
                             )}
                         </li>
                     ))}
-                    <select defaultValue={i18n.language} onChange={onChangeLang}>
-                        {LANGUAGES.map(({ code, label }) => (
-                        <option key={code} value={code}>
-                            {label}
-                        </option>
-                        ))}
-                    </select>
+                    <li className={`${!openMenu && "list_menu"}`}>
+                        <select className={`${!openMenu && "default-background-color"} ${openMenu && "opened-modal-selector"} rounded`} defaultValue={i18n.language} onChange={onChangeLang}>
+                            {LANGUAGES.map(({ code, label }) => (
+                                <option key={code} value={code}>
+                                    {label}
+                                </option>
+                            ))}
+                        </select>
+                    </li>
                 </ul>
                 <span className="bar_menu">
                     <FaBars onClick={() => setOpenMenu(true)}/>
