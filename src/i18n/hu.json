@@ -1,6 +1,17 @@
 {
     "translation": {
         "title": "Gyöngyvirág Kulcsosáz",
+        "header": {
+            "about_guesthouse": "Panzióról",
+            "about": "Bemutatkozás",
+            "gallery": "Galléria",
+            "amenities": "Szolgáltatások",
+            "accommodation": "Szállás",
+            "reservation": "Foglalás",
+            "rooms": "Szobák",
+            "sights": "Látnivalók",
+            "contact": "Kapcsolatok"
+        },
         "about": {
             "name": "Panzióról",
             "title": "A panzióról",

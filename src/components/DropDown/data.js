@@ -1,40 +1,40 @@
 export const dropMenu = [
     {
-        title: "Panzóról",
+        title: "about_guesthouse",
         subMenu: [
             {
-                title: "Bemutatkozás",
+                title: "about",
                 path: "/about",
             },
             {
-                title: "Galléria",
+                title: "gallery",
                 path: "/gallery"
             },
             {
-                title: "Szolgáltatások",
+                title: "amenities",
                 path: "/amenities",
             },
         ],
     },
     {
-        title: "Szállás",
+        title: "accommodation",
         subMenu: [
             {
-                title: "Foglalás",
+                title: "reservation",
                 path: "/reservation",
             },
             {
-                title: "Szobák",
+                title: "rooms",
                 path: "/rooms",
             },
         ],
     },
     {
-        title: "Látnivalók",
+        title: "sights",
         path: "/sights",
     },
     {
-        title: "Kapcsolatok",
+        title: "contact",
         path: "/contact",
     },
 ];

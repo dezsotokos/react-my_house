@@ -1,6 +1,17 @@
 {
     "translation": {
         "title": "Pensiunea Lăcrămioare",
+        "header": {
+            "about_guesthouse": "Despre pensiune",
+            "about": "Introducere",
+            "gallery": "Galerie",
+            "amenities": "Servicii",
+            "accommodation": "Cazare",
+            "reservation": "Rezervare",
+            "rooms": "Camere",
+            "sights": "Atracții",
+            "contact": "Contact"
+        },
         "about": {
             "name": "Despre pensiune",
             "title": "Despre pensiune",

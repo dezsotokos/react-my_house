@@ -31,7 +31,7 @@ const DropDown = () =>  {
                     {dropMenu.map((menu, i) => (
                         <li key={i} className="list_menu">
                             <div className="nav_menu">
-                                <a href={menu.path}>{t(menu.title)}</a>
+                                <a href={menu.path}>{t('header.' + menu.title)}</a>
                                 {menu.subMenu && (
                                     <span className="menu_icon">
                                         <IoIosArrowDown />

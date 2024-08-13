@@ -1,6 +1,17 @@
 {
     "translation": {
         "title": "Lily of the valley Guesthouse",
+        "header": {
+            "about_guesthouse": "About the Guesthouse",
+            "about": "About",
+            "gallery": "Gallery",
+            "amenities": "Amenities",
+            "accommodation": "Accommodation",
+            "reservation": "Booking",
+            "rooms": "Rooms",
+            "sights": "Sights",
+            "contact": "Contact"
+        },
         "about": {
             "name": "About",
             "title": "About the guesthouse",
